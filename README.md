@@ -24,12 +24,12 @@ allprojects {
 }
 ```
 
-3、`app/src/main/AndroidManifest.xml` 添加
+4、`app/src/main/AndroidManifest.xml` 添加
 ```xml
 <uses-permission android:name="android.permission.CAMERA" />
 ```
 
-4、`app/build.gradle`
+5、`app/build.gradle`
 ```gradle
 android {
     compileSdkVersion 27

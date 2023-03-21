@@ -6,11 +6,14 @@
 
 # 使用
 1、将uvccamera添加到你的工程根目录
+
 2、`./settings.gradle` 添加 `include ':uvccamerasdk'`
+
 3、`app/src/main/AndroidManifest.xml` 添加
 ```xml
 <uses-permission android:name="android.permission.CAMERA" />
 ```
+
 4、`app/build.gradle`
 ```
 android {
@@ -50,4 +53,5 @@ dependencies {
 }
 
 ```
+
 5、go to happy!!!

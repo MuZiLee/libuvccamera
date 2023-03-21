@@ -64,7 +64,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // ...
     implementation project(':uvccamerasdk')
-    implementation 'com.bulong.rudeness:rudeness:latest.release@aar'
 }
 
 ```

@@ -15,7 +15,7 @@
 ```
 
 4、`app/build.gradle`
-```
+```gradle
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.1"

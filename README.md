@@ -9,6 +9,21 @@
 
 2、`./settings.gradle` 添加 `include ':uvccamerasdk'`
 
+3、`./build.gradle`
+```gradle
+allprojects {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        maven { url 'https://dl.google.com/dl/android/maven2/' }
+        google()
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+```
+
 3、`app/src/main/AndroidManifest.xml` 添加
 ```xml
 <uses-permission android:name="android.permission.CAMERA" />
